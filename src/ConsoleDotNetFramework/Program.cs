@@ -17,7 +17,7 @@ namespace ConsoleDotNetFramework
             var session = NHibernateHelper.GetCurrentSession();
 
             //cria um objeto (classe mapeada)
-            var pessoa1 = new Pessoa("João Paulo");
+            var pessoa1 = new Pessoa("Fabiano");
 
             //salvando obj
             session.Save(pessoa1);

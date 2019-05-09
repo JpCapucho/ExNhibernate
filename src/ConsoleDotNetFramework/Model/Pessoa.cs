@@ -8,7 +8,7 @@ namespace ConsoleDotNetFramework.Model
 {
     public class Pessoa
     {
-        public virtual long  Id { get; set; }
+        public virtual long Id { get; set; }
 
         public virtual string Nome { get; set; }
 
@@ -16,7 +16,7 @@ namespace ConsoleDotNetFramework.Model
 
         public Pessoa(string _nome)
         {
-            if(String.IsNullOrEmpty(_nome))
+            if (String.IsNullOrEmpty(_nome))
             {
                 //not-null
                 throw new NullReferenceException("O campo  nao pode estar vazio ou não preenchido!");
